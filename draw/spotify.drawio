@@ -1,9 +1,137 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="8Xmf2mmkWi3sMKpuYGNf">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-1" value="Sporty:&lt;div&gt;&lt;ul&gt;&lt;li&gt;Songs&lt;/li&gt;&lt;li&gt;Playlists&lt;/li&gt;&lt;li&gt;Users&lt;/li&gt;&lt;li&gt;Artists&lt;/li&gt;&lt;li&gt;Podcast&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="-9mZojzq3RnfhFvCR_yn-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-2" value="Use Case&lt;div&gt;&lt;ul&gt;&lt;li&gt;Finding and playing music&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontSize=12;spacingTop=8;spacing=9;" vertex="1" parent="1">
+          <mxGeometry y="120" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-4" value="Numbers:&lt;div&gt;&lt;ul&gt;&lt;li&gt;Users --&amp;gt; 100M&lt;/li&gt;&lt;li&gt;Songs --&amp;gt; 20M&lt;/li&gt;&lt;li&gt;Audio Size --&amp;gt; 5MB&lt;/li&gt;&lt;li&gt;Total SIze --&amp;gt; .1PB&lt;/li&gt;&lt;li&gt;2-3x Replicas --&amp;gt; 0.3 PB&lt;/li&gt;&lt;li&gt;100B per Song * 20M&lt;/li&gt;&lt;li&gt;1KB per user * 100M&lt;/li&gt;&lt;li&gt;1KB per Podcost * 1M&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;1.5 TB Database&lt;/div&gt;&lt;div&gt;0.3-05 PM Storage&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingTop=1;spacing=14;" vertex="1" parent="1">
+          <mxGeometry y="210" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-5" value="Spotify App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="30" width="190" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-6" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-8" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-9" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-10" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-11" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-12" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-13" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-14" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-15" value="&lt;div&gt;Web Servers&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-16" value="LB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="45" width="50" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.984;exitY=0.477;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-9mZojzq3RnfhFvCR_yn-5" target="-9mZojzq3RnfhFvCR_yn-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="360" as="sourcePoint" />
+            <mxPoint x="460" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-22" value="Songs Audio DB&lt;div&gt;(AWS S3)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="880" y="585" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-23" value="Songs Audio DB&lt;div&gt;(AWS S3)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="890" y="590" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-24" value="Songs Audio DB&lt;div&gt;(AWS S3)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="900" y="597.5" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-26" value="Metadata DD&lt;div&gt;(AWS RDS)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="450" y="612.5" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-27" value="Metadata DD&lt;div&gt;(AWS RDS)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="470" y="627.5" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-28" value="Metadata DB&lt;div&gt;(AWS RDS)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="480" y="640" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-29" value="Songs&lt;div&gt;Users&lt;/div&gt;&lt;div&gt;Artists&lt;/div&gt;&lt;div&gt;Genere&lt;/div&gt;&lt;div&gt;Albums&lt;/div&gt;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="645" width="160" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.584;entryY=0.178;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-9mZojzq3RnfhFvCR_yn-15" target="-9mZojzq3RnfhFvCR_yn-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="410" as="sourcePoint" />
+            <mxPoint x="610" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-40" value="CDN&lt;div&gt;Cache&lt;/div&gt;&lt;div&gt;(AWS Cloudfront)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="10" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.147;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.925;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-9mZojzq3RnfhFvCR_yn-11" target="-9mZojzq3RnfhFvCR_yn-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="410" as="sourcePoint" />
+            <mxPoint x="610" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.689;entryY=0.161;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-9mZojzq3RnfhFvCR_yn-40" target="-9mZojzq3RnfhFvCR_yn-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="410" as="sourcePoint" />
+            <mxPoint x="610" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.178;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-9mZojzq3RnfhFvCR_yn-40" target="-9mZojzq3RnfhFvCR_yn-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="30" as="sourcePoint" />
+            <mxPoint x="660" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-44" value="LS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-45" value="Searcu Song" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="45" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" target="-9mZojzq3RnfhFvCR_yn-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="70" as="sourcePoint" />
+            <mxPoint x="610" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-47" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-9mZojzq3RnfhFvCR_yn-28" target="-9mZojzq3RnfhFvCR_yn-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="410" as="sourcePoint" />
+            <mxPoint x="610" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-49" value="Goal is to find the audio link" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="550" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-9mZojzq3RnfhFvCR_yn-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1.02;exitY=0.633;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-9mZojzq3RnfhFvCR_yn-16" target="-9mZojzq3RnfhFvCR_yn-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="410" as="sourcePoint" />
+            <mxPoint x="610" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
